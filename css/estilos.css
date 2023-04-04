@@ -1,0 +1,40 @@
+body::before {
+    content: "";
+    background-image: url(../img/bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+input{
+    width: 60px !important;
+}
+.nroGrande{
+    font-size: 70px;
+}
+.opacidad-90{
+    opacity: 0.9;
+}
+.bg-azulOscuro{
+    background-color: rgba(107, 247, 182, 0.523);
+}
+.text-titulo{
+    color: rgba(107, 247, 182, 0.523);
+    text-shadow: 1px 1px 1px rgb(17, 17, 17);
+    text-decoration: underline;
+}
+.btn-color{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+.btn-color:hover{
+    border: 1px solid black;
+    color: black;
+}
